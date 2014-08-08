@@ -1,0 +1,41 @@
+body {
+    background: url('../images/bg.jpg');
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+}
+
+.container .text {
+    font-size: 35px;
+    color: navy;
+    width: 455px;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.container .logo {
+    background: url('../images/Investeaze_logo.png') no-repeat;
+    height: 100px;
+    width: 310px;
+    /* position: relative; */
+    margin: 0 auto;
+    left: 38%;
+    margin-top: 5%;
+}
+
+.container .goto-invest-button {
+    background: url('../images/button_normal.png') no-repeat;
+    height: 78px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.container .goto-invest-button:hover {
+    background: url('../images/button_select.png') no-repeat;
+}
